@@ -6,7 +6,7 @@
   color: #333;
 }
 
-/* 전역 스타일 */
+/* 전역 스타일 - 버튼*/
 .btn {
   height: 34px;
   background: #eee linear-gradient(to bottom, #fcfcfc, #eee);
@@ -38,4 +38,32 @@
   border: 1px solid #65b836;
   color: #fff;
   background: #55a532 linear-gradient(#91dd70, #55ae2e);
+}
+
+/* 전역 스타일 - input */
+.input--text {
+  height: 34px;
+  padding: 0 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  outline: none;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075);
+  font-size: 16px;
+}
+
+.input--text:focus {
+  border-color: #51a7e8;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075),
+    0 0 5px rgba(81, 167, 232, 0.5);
+}
+/* Vendor Prefix (브라우저별 접두사) */
+.input--text::-webkit-input-placeholder {
+  color: #cecece;
+}
+.input--text::-ms-input-placeholder {
+  color: #cecece;
+}
+.input--text::-moz-input-placeholder {
+  color: #cecece;
 }
