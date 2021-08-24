@@ -6,6 +6,10 @@
   color: #333;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* 전역 스타일 - 버튼*/
 .btn {
   height: 34px;
@@ -20,8 +24,8 @@
   line-height: 1.5;
   cursor: pointer;
   box-sizing: border-box;
-
   position: relative;
+  color: #333;
 }
 
 .btn:hover::before {
@@ -111,4 +115,8 @@ header .main-menu li a {
   display: block;
   padding: 10px;
   color: #3c4146;
+}
+
+header .main-menu li a:hover {
+  color: #4078c5;
 }
