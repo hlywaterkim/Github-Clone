@@ -85,6 +85,16 @@ a {
   float: right;
 }
 
+/* Summary */
+.summary {
+}
+
+.summary__title {
+}
+
+.summary__description {
+}
+
 /* HEADER START */
 header {
   border-bottom: 1px solid rgba(0, 0, 0, 0.75);
@@ -176,4 +186,8 @@ header .sub-menu li a {
 
 header .sub-menu li a:hover {
   color: #4078c0;
+}
+
+/* VISUAL START */
+.section--visual {
 }
