@@ -227,6 +227,12 @@ header .sub-menu li a:hover {
   display: flex;
 }
 
+.section--visual .summary {
+  flex-grow: 1;
+  flex-basis: 0;
+  margin-right: 90px;
+}
+
 .section--visual .summary .summary__title {
   font-size: 54px;
   color: #fff;
@@ -240,6 +246,7 @@ header .sub-menu li a:hover {
 
 #sign-form {
   width: 340px;
+  margin-top: 16px;
 }
 
 #sign-form li {
